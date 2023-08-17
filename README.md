@@ -1,9 +1,17 @@
 # Password-Manager
+This project was developed using Python and offers a secure and efficient way to manage your usernames and passwords for different accounts.
 
-Created using Python
+# Overview
+The Password Manager project provides a solution for storing and managing your account credentials securely. Whether you're tired of maintaining spreadsheets or simply seeking a more user-friendly interface, this project offers a Python-based password management solution.
 
-This project was created as a way of storing my usernames/passwords associated with different accounts. I have an excel spreadsheet where I do this but I wanted to create this in the form of a Python program. 
-There is a user authentication component that makes it so your information is only accessible with the right password.
+# Features
+User Authentication: To ensure data security, the project includes a user authentication mechanism that requires the correct master password for access.
 
-The user inputs an account, the username and password linked to that account, and needs a master password to either access existing information, 
-add new information, or quit the program. 
+Account Management: Users can input account details, including the account name, associated username, and password.
+
+Data Accessibility: With the master password, users can access, add, and manage their stored information.
+
+Simple Interface: The project features an easy-to-use command-line interface for efficient navigation.
+
+# Technologies Used
+Python: The project leverages Python to provide the core functionalities.
